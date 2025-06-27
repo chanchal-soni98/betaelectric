@@ -2,7 +2,7 @@
 
 This repository contains two projects:
 
-1. **Backend**: A Node.js + TypeScript API to manage products, cart, and apply discount rules.
+1. **Backend**: A Node.js + JavaScript API to manage products, cart, and apply discount rules.
 2. **Frontend**: A React + Tailwind CSS app to search for NPM packages and manage a favorite list.
 
 ---
@@ -13,7 +13,7 @@ This repository contains two projects:
 ## 🚀 Live Demo
 
 Frontend deployed on Netlify:  
-🔗 **[Visit Live App](https://heroic-halva-232e79.netlify.app/list)**
+🔗 **[Visit Live App](https://heroic-halva-232e79.netlify.app)**
 
 GitHub Repo:  
 🔗 **[View Source Code](https://github.com/chanchal-soni98/betaelectric.git)**
@@ -32,7 +32,7 @@ GitHub Repo:
 **Backend:**
 - Node.js
 - Express.js
-- TypeScript
+- JavaScript/React
 - MongoDB (with Mongoose)
 
 ---
