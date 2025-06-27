@@ -32,7 +32,7 @@ GitHub Repo:
 **Backend:**
 - Node.js
 - Express.js
-- TypeScript
+- JavaScript/React
 - MongoDB (with Mongoose)
 
 ---
