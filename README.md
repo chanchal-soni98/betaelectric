@@ -13,7 +13,7 @@ This repository contains two projects:
 ## 🚀 Live Demo
 
 Frontend deployed on Netlify:  
-🔗 **[Visit Live App](https://heroic-halva-232e79.netlify.app/list)**
+🔗 **[Visit Live App](https://heroic-halva-232e79.netlify.app)**
 
 GitHub Repo:  
 🔗 **[View Source Code](https://github.com/chanchal-soni98/betaelectric.git)**
