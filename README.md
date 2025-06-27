@@ -2,7 +2,7 @@
 
 This repository contains two projects:
 
-1. **Backend**: A Node.js + TypeScript API to manage products, cart, and apply discount rules.
+1. **Backend**: A Node.js + JavaScript API to manage products, cart, and apply discount rules.
 2. **Frontend**: A React + Tailwind CSS app to search for NPM packages and manage a favorite list.
 
 ---
