@@ -58,21 +58,19 @@ GitHub Repo:
 ### 📸 Screenshots
 
 #### ➕ Add Favorite
-![Screenshot (447)](https://github.com/user-attachments/assets/3f92a69f-c796-419b-987a-69827d86ae65)
-![Screenshot (448)](https://github.com/user-attachments/assets/35bb77b9-23ab-4d22-a277-9bef712b82c6)
-![Screenshot (449)](https://github.com/user-attachments/assets/9fc942b4-e9be-4271-a445-b1a504a131c8)
+
+![Screenshot (454)](https://github.com/user-attachments/assets/9213c3b5-e3cf-4284-990d-4ea96751fddf)
 
 #### 📋 List View
-![Screenshot (450)](https://github.com/user-attachments/assets/d9b81ac3-2100-45dd-a100-0f3573cb6b7a)
+![Screenshot (455)](https://github.com/user-attachments/assets/4a5eb868-13d4-467a-948b-a421526e41a8)
+![Screenshot (456)](https://github.com/user-attachments/assets/ee3e30ff-2a39-4383-94b8-8c5d2d980ad8)
 
 #### 🔍 Modal View & Edit
-
-![Screenshot (451)](https://github.com/user-attachments/assets/4c599456-1bcc-431c-94a2-2e5583bca23d)
-![Screenshot (452)](https://github.com/user-attachments/assets/798bddf2-5da6-4cf5-97e5-89051912fbd0)
-![Screenshot (453)](https://github.com/user-attachments/assets/8017481a-6e5e-4feb-8f17-cb98fc68c539)
+![Screenshot (457)](https://github.com/user-attachments/assets/cac40b8e-4678-4b94-832c-1b2e9288a505)
+![Screenshot (458)](https://github.com/user-attachments/assets/12c6d4b5-c6cb-4319-80c4-2434db8e6584)
+![Screenshot (459)](https://github.com/user-attachments/assets/3c063660-8626-404c-a0bd-b0e2fa897d96)
 
 ---
-
 
 ### 🛠️ Installation (Frontend)
 
