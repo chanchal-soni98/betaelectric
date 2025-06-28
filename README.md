@@ -1,12 +1,9 @@
 # 🛒 Full Stack Project – Checkout System & Favorite NPM Packages App
 
-This repository contains two projects:
+This repository contains two independent applications:
 
-1. **Backend**: A Node.js + JavaScript API to manage products, cart, and apply discount rules.
-2. **Frontend**: A React + Tailwind CSS app to search for NPM packages and manage a favorite list.
-
----
-
+1. 🧾 **Backend (Checkout System)** – A Node.js + MongoDB API that supports product listing, cart management, and multi-rule discount calculations.
+2. 🌐 **Frontend (Favorite NPM Packages App)** – A React + Tailwind CSS app to search, manage, and display your favorite NPM packages.
 
 ---
 
@@ -22,69 +19,105 @@ GitHub Repo:
 
 ## 🧩 Tech Stack
 
-**Frontend:**
-- React
+### Frontend
+- React (with Hooks)
 - TypeScript
 - Tailwind CSS
-- React Router
+- React Router DOM
 - LocalStorage API
 
-**Backend:**
+### Backend
 - Node.js
 - Express.js
-- JavaScript/React
 - MongoDB (with Mongoose)
+- TypeScript
+- MVC Architecture
 
 ---
 
-## 📦 Favorite NPM Packages App (Frontend)
+## 🌐 Frontend: Favorite NPM Packages App
 
 ### ✅ Features
 
-- 🔍 **Search NPM packages** using the [npms.io API](https://api.npms.io/v2/search?q=).
-- ➕ **Add packages to favorites** with a reason.
-- 📜 **List all favorites** with view/delete support.
-- 🧾 **Delete with confirmation** using a modal.
-- ✅ Uses `localStorage` for persistent storage.
-- ⚛️ Fully responsive and styled with Tailwind.
+- 🔍 Search for real NPM packages using `npms.io` API.
+- ➕ Add a package to your favorites with a required reason.
+- 🧾 View and manage your favorite packages.
+- ✏️ Edit the name or reason using Edit Modal with live package suggestions.
+- 🗑️ Delete with a confirmation modal.
+- 💾 Data is persisted using `localStorage`.
+- 💡 Responsive UI with Tailwind CSS.
 
-### 📂 Pages
+### 🧭 Application Routes
 
-- `/add` – Search & Add NPM Packages
-- `/list` – List all favorite packages
-- `/no-favs` – Message when no favorites are added
+| Path     | Description                            |
+|----------|----------------------------------------|
+| `/add`   | Search and add NPM packages to favorites |
+| `/list`  | View all favorite packages              |
+| `/` or `/no-favs` | Shown when there are no favorites  |
+![Screenshot (447)](https://github.com/user-attachments/assets/3f92a69f-c796-419b-987a-69827d86ae65)
+
+### 📸 Screenshots
+
+#### ➕ Add Favorite
+![Add Favorite](./screenshots/add-fav.png)
+
+#### 📋 List View
+![Favorite List](./screenshots/fav-list.png)
+
+#### 🔍 Modal View & Edit
+![Modal](./screenshots/modal-view-edit.png)
 
 ---
 
-## 🛠️ Checkout API System (Backend)
+### 🛠️ Installation (Frontend)
 
-### 🎯 Features
+```bash
+git clone https://github.com/chanchal-soni98/betaelectric.git
+cd betaelectric
+npm install
+npm run dev
 
-- 📦 **Product Listing**: Create & fetch products.
-- 🛒 **Add to Cart**: Scan items into a single persistent cart.
-- 💸 **Dynamic Discounts**:
-  - Buy 3 x A → Rs 85 total
-  - Buy 2 x B → Rs 35 total
-  - Basket total > Rs 150 → extra Rs 20 off
-- 🧾 **Cart API** returns:
-  - All items
-  - Individual discounts
-  - Total price
-  - Total discount
+backend/
+│
+├── controllers/       # Route handlers
+├── models/            # Mongoose models
+├── routes/            # API routes
+├── services/          # Discount logic
+├── db.js              # MongoDB connection
+├── app.js             # Express setup
+├── server.js          # Entry point
+└── .env               # Environment variables
 
-### 🔐 API Endpoints
-
-#### Products
-```http
-GET    /api/products          → List all products
-POST   /api/products          → Add new product (name, price)
-
-POST   /api/cart/add          → Add item to cart (productId, quantity)
-GET    /api/cart              → Get cart items, total, and discounts
-
-[
+End point - GET /api/products
+Response - [
   { "name": "A", "price": 30 },
   { "name": "B", "price": 20 },
   { "name": "C", "price": 50 },
   { "name": "D", "price": 15 }
 ]
+Post Request - POST /api/products
+Response - { "name": "A", "price": 30 }
+
+Cart
+Add to cart - POST /api/cart/add 
+{ "productId": "PRODUCT_ID", "quantity": 1 }
+
+Get Cart Details - GET /api/cart
+{
+  "items": [
+    {
+      "name": "A",
+      "unitPrice": 30,
+      "quantity": 3,
+      "discount": 5,
+      "totalPrice": 85
+    }
+  ],
+  "total": 85,
+  "totalDiscount": 5
+}
+
+cd backend
+npm install
+npm start
+
