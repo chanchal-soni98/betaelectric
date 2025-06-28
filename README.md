@@ -80,16 +80,6 @@ cd betaelectric
 npm install
 npm run dev
 
-backend/
-│
-├── controllers/       # Route handlers
-├── models/            # Mongoose models
-├── routes/            # API routes
-├── services/          # Discount logic
-├── db.js              # MongoDB connection
-├── app.js             # Express setup
-├── server.js          # Entry point
-└── .env               # Environment variables
 
 End point - GET /api/products
 Response - [
