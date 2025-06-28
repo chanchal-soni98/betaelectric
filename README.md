@@ -21,7 +21,7 @@ GitHub Repo:
 
 ### Frontend
 - React (with Hooks)
-- TypeScript
+- JavaScript
 - Tailwind CSS
 - React Router DOM
 - LocalStorage API
@@ -30,7 +30,7 @@ GitHub Repo:
 - Node.js
 - Express.js
 - MongoDB (with Mongoose)
-- TypeScript
+- JavaScript
 - MVC Architecture
 
 ---
