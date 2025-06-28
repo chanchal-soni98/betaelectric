@@ -54,20 +54,25 @@ GitHub Repo:
 | `/add`   | Search and add NPM packages to favorites |
 | `/list`  | View all favorite packages              |
 | `/` or `/no-favs` | Shown when there are no favorites  |
-![Screenshot (447)](https://github.com/user-attachments/assets/3f92a69f-c796-419b-987a-69827d86ae65)
 
 ### 📸 Screenshots
 
 #### ➕ Add Favorite
-![Add Favorite](./screenshots/add-fav.png)
+![Screenshot (447)](https://github.com/user-attachments/assets/3f92a69f-c796-419b-987a-69827d86ae65)
+![Screenshot (448)](https://github.com/user-attachments/assets/35bb77b9-23ab-4d22-a277-9bef712b82c6)
+![Screenshot (449)](https://github.com/user-attachments/assets/9fc942b4-e9be-4271-a445-b1a504a131c8)
 
 #### 📋 List View
-![Favorite List](./screenshots/fav-list.png)
+![Screenshot (450)](https://github.com/user-attachments/assets/d9b81ac3-2100-45dd-a100-0f3573cb6b7a)
 
 #### 🔍 Modal View & Edit
-![Modal](./screenshots/modal-view-edit.png)
+
+![Screenshot (451)](https://github.com/user-attachments/assets/4c599456-1bcc-431c-94a2-2e5583bca23d)
+![Screenshot (452)](https://github.com/user-attachments/assets/798bddf2-5da6-4cf5-97e5-89051912fbd0)
+![Screenshot (453)](https://github.com/user-attachments/assets/8017481a-6e5e-4feb-8f17-cb98fc68c539)
 
 ---
+
 
 ### 🛠️ Installation (Frontend)
 
