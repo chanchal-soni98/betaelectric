@@ -2,8 +2,8 @@
 
 This repository contains two independent applications:
 
-1. 🧾 **Backend (Checkout System)** – A Node.js + MongoDB API that supports product listing, cart management, and multi-rule discount calculations.
-2. 🌐 **Frontend (Favorite NPM Packages App)** – A React + Tailwind CSS app to search, manage, and display your favorite NPM packages.
+1. 🧾 **Backend (Checkout System)** – A Node.js + MongoDB API that supports product listing, cart management, and discount calculations.
+2. 🌐 **Frontend (Favorite NPM Packages App)** – A React + Tailwind CSS app to search, manage, and display favorite NPM packages.
 
 ---
 
