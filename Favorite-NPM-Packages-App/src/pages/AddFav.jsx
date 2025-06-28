@@ -4,6 +4,7 @@ import TextArea from "../components/TextArea";
 import Button from "../components/Button";
 import { getFavs, setFavs } from "../utils/localStorage";
 import { useNavigate } from "react-router-dom";
+import { API_URL } from "../utils/constant";
 
 const AddFav = () => {
   const [query, setQuery] = useState("");
@@ -28,7 +29,7 @@ const AddFav = () => {
   const fetchPackages = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`https://api.npms.io/v2/search?q=${query}`);
+      const res = await fetch(`${API_URL}${query}`);
       const data = await res.json();
       setResults(data.results.map(r => r.package.name));
     } catch (err) {
